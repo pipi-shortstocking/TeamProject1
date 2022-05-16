@@ -13,10 +13,6 @@ namespace Teamproject1
     public partial class graghform : Form
     {
         public graghform()
-            //djskfjlsfjlsdkjflksdjf
-            //dfsfdsfedfsfdsdf
-            //dfsfd
-
         {
             InitializeComponent();
         }
