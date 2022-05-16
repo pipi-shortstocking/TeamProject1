@@ -14,8 +14,6 @@ namespace Teamproject1
     {
         public graghform()
             //djskfjlsfjlsdkjflksdjf
-            //dfsfdsfe
-            //dfsfd
 
         {
             InitializeComponent();
