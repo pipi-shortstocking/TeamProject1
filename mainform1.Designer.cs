@@ -31,12 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(mainform1));
             this.maincopywirte = new System.Windows.Forms.Label();
             this.maincopywrite2 = new System.Windows.Forms.Label();
-            this.mainpicturebox = new System.Windows.Forms.PictureBox();
+            this.mainpictureboxparent = new System.Windows.Forms.PictureBox();
             this.loadingbar = new System.Windows.Forms.PictureBox();
             this.loginbutton = new System.Windows.Forms.Button();
             this.gobutton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.mainpicturebox)).BeginInit();
+            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.mainpictureboxparent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.loadingbar)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,14 +70,14 @@
             this.maincopywrite2.TabIndex = 1;
             this.maincopywrite2.Text = "스타일 여행을 떠나보세요";
             // 
-            // mainpicturebox
+            // mainpictureboxparent
             // 
-            this.mainpicturebox.Image = ((System.Drawing.Image)(resources.GetObject("mainpicturebox.Image")));
-            this.mainpicturebox.Location = new System.Drawing.Point(0, 12);
-            this.mainpicturebox.Name = "mainpicturebox";
-            this.mainpicturebox.Size = new System.Drawing.Size(536, 813);
-            this.mainpicturebox.TabIndex = 0;
-            this.mainpicturebox.TabStop = false;
+            this.mainpictureboxparent.Image = ((System.Drawing.Image)(resources.GetObject("mainpictureboxparent.Image")));
+            this.mainpictureboxparent.Location = new System.Drawing.Point(0, 12);
+            this.mainpictureboxparent.Name = "mainpictureboxparent";
+            this.mainpictureboxparent.Size = new System.Drawing.Size(536, 813);
+            this.mainpictureboxparent.TabIndex = 0;
+            this.mainpictureboxparent.TabStop = false;
             // 
             // loadingbar
             // 
@@ -92,53 +93,70 @@
             this.loginbutton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.loginbutton.Font = new System.Drawing.Font("나눔스퀘어_ac ExtraBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.loginbutton.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.loginbutton.Location = new System.Drawing.Point(430, 492);
+            this.loginbutton.Location = new System.Drawing.Point(430, 415);
             this.loginbutton.Name = "loginbutton";
             this.loginbutton.Size = new System.Drawing.Size(60, 50);
             this.loginbutton.TabIndex = 4;
             this.loginbutton.Text = "LOGIN";
             this.loginbutton.UseVisualStyleBackColor = false;
+            this.loginbutton.Click += new System.EventHandler(this.loginbutton_Click);
             // 
             // gobutton
             // 
             this.gobutton.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.gobutton.Font = new System.Drawing.Font("나눔스퀘어라운드 ExtraBold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.gobutton.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.gobutton.Location = new System.Drawing.Point(430, 428);
+            this.gobutton.Location = new System.Drawing.Point(430, 344);
             this.gobutton.Name = "gobutton";
             this.gobutton.Size = new System.Drawing.Size(60, 52);
             this.gobutton.TabIndex = 5;
             this.gobutton.Text = "GO";
             this.gobutton.UseVisualStyleBackColor = false;
+            this.gobutton.Click += new System.EventHandler(this.gobutton_Click);
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button1.Font = new System.Drawing.Font("나눔스퀘어_ac ExtraBold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.button1.ForeColor = System.Drawing.Color.DarkCyan;
-            this.button1.Location = new System.Drawing.Point(430, 560);
+            this.button1.ForeColor = System.Drawing.Color.Cyan;
+            this.button1.Location = new System.Drawing.Point(430, 487);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(60, 61);
             this.button1.TabIndex = 7;
-            this.button1.Text = "BUTTON2";
+            this.button1.Text = "PROFILE";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button2.Font = new System.Drawing.Font("나눔스퀘어라운드 ExtraBold", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.button2.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.button2.Location = new System.Drawing.Point(430, 576);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(60, 57);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "REC";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // mainform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 741);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gobutton);
             this.Controls.Add(this.loginbutton);
             this.Controls.Add(this.loadingbar);
             this.Controls.Add(this.maincopywrite2);
             this.Controls.Add(this.maincopywirte);
-            this.Controls.Add(this.mainpicturebox);
+            this.Controls.Add(this.mainpictureboxparent);
             this.IsMdiContainer = true;
             this.Name = "mainform";
             this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.mainpicturebox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.mainpictureboxparent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.loadingbar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -148,11 +166,12 @@
         #endregion
         private System.Windows.Forms.Label maincopywirte;
         private System.Windows.Forms.Label maincopywrite2;
-        private System.Windows.Forms.PictureBox mainpicturebox;
+        private System.Windows.Forms.PictureBox mainpictureboxparent;
         private System.Windows.Forms.PictureBox loadingbar;
         private System.Windows.Forms.Button loginbutton;
         private System.Windows.Forms.Button gobutton;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

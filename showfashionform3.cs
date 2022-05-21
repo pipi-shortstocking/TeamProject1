@@ -14,7 +14,7 @@ namespace Teamproject1
 {
     public partial class showfashionform3 : Form
     {
-        MySQL mysql = new MySQL("192.168.50.172", "sys", "newuser", "rlathgml72!");
+        MySQL mysql = new MySQL("127.0.0.1", "sys", "root", "rlathgml72");
         //bool result = false;
         public showfashionform3()
         {
@@ -24,7 +24,7 @@ namespace Teamproject1
         private void toprecommand_Click(object sender, EventArgs e)
         {
             MySqlConnection connection = mysql.Connection();
-            string sql = "SELECT * FROM st";
+            string sql = "SELECT * FROM people_main";
             connection.Open();
             MySqlCommand cmd = new MySqlCommand(sql, connection);
             MySqlDataReader reader = new MySqlCommand(sql, connection).ExecuteReader();
@@ -43,7 +43,7 @@ namespace Teamproject1
         private void bottomrecommand_Click(object sender, EventArgs e)
         {
             MySqlConnection connection = mysql.Connection();
-            string sql = "SELECT * FROM st";
+            string sql = "SELECT * FROM people_main";
             connection.Open();
             MySqlCommand cmd = new MySqlCommand(sql, connection);
             MySqlDataReader reader = new MySqlCommand(sql, connection).ExecuteReader();
@@ -61,7 +61,7 @@ namespace Teamproject1
         private void accessory_Click(object sender, EventArgs e)
         {
             MySqlConnection connection = mysql.Connection();
-            string sql = "SELECT * FROM st";
+            string sql = "SELECT * FROM people_main";
             connection.Open();
             MySqlCommand cmd = new MySqlCommand(sql, connection);
             MySqlDataReader reader = new MySqlCommand(sql, connection).ExecuteReader();
