@@ -62,6 +62,7 @@ namespace Teamproject1
             this.graphformbutton.TabIndex = 0;
             this.graphformbutton.Text = "<";
             this.graphformbutton.UseVisualStyleBackColor = false;
+            this.graphformbutton.Click += new System.EventHandler(this.graphformbutton_Click);
             // 
             // graphformcopy1
             // 

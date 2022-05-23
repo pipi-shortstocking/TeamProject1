@@ -51,18 +51,19 @@
             this.showfasionmainbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.showfasionmainbutton.ForeColor = System.Drawing.SystemColors.ControlText;
             this.showfasionmainbutton.Location = new System.Drawing.Point(15, 14);
-            this.showfasionmainbutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.showfasionmainbutton.Margin = new System.Windows.Forms.Padding(4);
             this.showfasionmainbutton.Name = "showfasionmainbutton";
             this.showfasionmainbutton.Size = new System.Drawing.Size(71, 61);
             this.showfasionmainbutton.TabIndex = 1;
             this.showfasionmainbutton.Text = "< ";
             this.showfasionmainbutton.UseVisualStyleBackColor = false;
+            this.showfasionmainbutton.Click += new System.EventHandler(this.showfasionmainbutton_Click);
             // 
             // showfashioncopy
             // 
             this.showfashioncopy.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.showfashioncopy.Location = new System.Drawing.Point(35, 83);
-            this.showfashioncopy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.showfashioncopy.Margin = new System.Windows.Forms.Padding(4);
             this.showfashioncopy.Name = "showfashioncopy";
             this.showfashioncopy.Size = new System.Drawing.Size(552, 104);
             this.showfashioncopy.TabIndex = 2;
@@ -73,7 +74,7 @@
             // 
             this.showfasioncopy2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.showfasioncopy2.Location = new System.Drawing.Point(35, 202);
-            this.showfasioncopy2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.showfasioncopy2.Margin = new System.Windows.Forms.Padding(4);
             this.showfasioncopy2.Name = "showfasioncopy2";
             this.showfasioncopy2.Size = new System.Drawing.Size(395, 28);
             this.showfasioncopy2.TabIndex = 3;
@@ -84,7 +85,7 @@
             // 
             this.expicture1.Image = ((System.Drawing.Image)(resources.GetObject("expicture1.Image")));
             this.expicture1.Location = new System.Drawing.Point(52, 272);
-            this.expicture1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.expicture1.Margin = new System.Windows.Forms.Padding(4);
             this.expicture1.Name = "expicture1";
             this.expicture1.Size = new System.Drawing.Size(304, 336);
             this.expicture1.TabIndex = 4;
@@ -94,7 +95,7 @@
             // 
             this.expicture2.Image = ((System.Drawing.Image)(resources.GetObject("expicture2.Image")));
             this.expicture2.Location = new System.Drawing.Point(414, 272);
-            this.expicture2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.expicture2.Margin = new System.Windows.Forms.Padding(4);
             this.expicture2.Name = "expicture2";
             this.expicture2.Size = new System.Drawing.Size(306, 336);
             this.expicture2.TabIndex = 5;
@@ -104,7 +105,7 @@
             // 
             this.showother.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.showother.Location = new System.Drawing.Point(52, 653);
-            this.showother.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.showother.Margin = new System.Windows.Forms.Padding(4);
             this.showother.Name = "showother";
             this.showother.Size = new System.Drawing.Size(234, 60);
             this.showother.TabIndex = 6;
@@ -115,7 +116,7 @@
             // 
             this.toprecommand.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.toprecommand.Location = new System.Drawing.Point(90, 754);
-            this.toprecommand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.toprecommand.Margin = new System.Windows.Forms.Padding(4);
             this.toprecommand.Name = "toprecommand";
             this.toprecommand.Size = new System.Drawing.Size(151, 114);
             this.toprecommand.TabIndex = 7;
@@ -127,7 +128,7 @@
             // 
             this.bottomrecommand.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.bottomrecommand.Location = new System.Drawing.Point(314, 751);
-            this.bottomrecommand.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bottomrecommand.Margin = new System.Windows.Forms.Padding(4);
             this.bottomrecommand.Name = "bottomrecommand";
             this.bottomrecommand.Size = new System.Drawing.Size(142, 119);
             this.bottomrecommand.TabIndex = 8;
@@ -139,7 +140,7 @@
             // 
             this.accessory.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.accessory.Location = new System.Drawing.Point(528, 749);
-            this.accessory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.accessory.Margin = new System.Windows.Forms.Padding(4);
             this.accessory.Name = "accessory";
             this.accessory.Size = new System.Drawing.Size(148, 119);
             this.accessory.TabIndex = 9;
@@ -151,7 +152,7 @@
             // 
             this.extra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.extra.Location = new System.Drawing.Point(626, 685);
-            this.extra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.extra.Margin = new System.Windows.Forms.Padding(4);
             this.extra.Name = "extra";
             this.extra.Size = new System.Drawing.Size(94, 28);
             this.extra.TabIndex = 10;
@@ -163,7 +164,7 @@
             // 
             this.question.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.question.Location = new System.Drawing.Point(249, 953);
-            this.question.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.question.Margin = new System.Windows.Forms.Padding(4);
             this.question.Name = "question";
             this.question.Size = new System.Drawing.Size(276, 55);
             this.question.TabIndex = 11;
@@ -175,7 +176,7 @@
             this.extradesign.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.extradesign.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.extradesign.Location = new System.Drawing.Point(76, 1046);
-            this.extradesign.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.extradesign.Margin = new System.Windows.Forms.Padding(4);
             this.extradesign.Name = "extradesign";
             this.extradesign.Size = new System.Drawing.Size(630, 122);
             this.extradesign.TabIndex = 12;
@@ -199,7 +200,7 @@
             this.Controls.Add(this.showfasioncopy2);
             this.Controls.Add(this.showfashioncopy);
             this.Controls.Add(this.showfasionmainbutton);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "showfashionform3";
             this.Text = "showfashionform";
             ((System.ComponentModel.ISupportInitialize)(this.expicture1)).EndInit();

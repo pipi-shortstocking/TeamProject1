@@ -21,5 +21,18 @@ namespace Teamproject1
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void loginformbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            mainform1 mainform2 = new mainform1();
+            mainform2.Show();
+
+        }
     }
 }

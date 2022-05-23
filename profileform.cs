@@ -16,5 +16,13 @@ namespace Teamproject1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+           mainform1 mainform2 = new mainform1();
+            mainform2.Show();   
+
+        }
     }
 }

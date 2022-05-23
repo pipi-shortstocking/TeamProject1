@@ -84,5 +84,13 @@ namespace Teamproject1
                 chart1.ChartAreas[0].AxisX.CustomLabels.Add(cl[i]);
             }
         }
+
+        private void graphformbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            mainform1 mainform2= new mainform1();
+            mainform2.Show();
+
+        }
     }
 }

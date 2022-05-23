@@ -82,5 +82,13 @@ namespace Teamproject1
         {
             
         }
+
+        private void showfasionmainbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            showfashionform3 showfashion4 = new showfashionform3();
+            showfashion4.Show(); 
+
+        }
     }
 }
