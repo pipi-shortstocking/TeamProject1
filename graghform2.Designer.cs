@@ -31,6 +31,7 @@ namespace Teamproject1
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(graghform2));
             this.graphformbutton = new System.Windows.Forms.Button();
             this.graphformcopy1 = new System.Windows.Forms.Button();
@@ -55,7 +56,7 @@ namespace Teamproject1
             this.graphformbutton.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.graphformbutton.Font = new System.Drawing.Font("휴먼둥근헤드라인", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.graphformbutton.Location = new System.Drawing.Point(15, 26);
-            this.graphformbutton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.graphformbutton.Margin = new System.Windows.Forms.Padding(4);
             this.graphformbutton.Name = "graphformbutton";
             this.graphformbutton.Size = new System.Drawing.Size(74, 56);
             this.graphformbutton.TabIndex = 0;
@@ -66,7 +67,7 @@ namespace Teamproject1
             // 
             this.graphformcopy1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.graphformcopy1.Location = new System.Drawing.Point(15, 385);
-            this.graphformcopy1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.graphformcopy1.Margin = new System.Windows.Forms.Padding(4);
             this.graphformcopy1.Name = "graphformcopy1";
             this.graphformcopy1.Size = new System.Drawing.Size(305, 83);
             this.graphformcopy1.TabIndex = 2;
@@ -77,7 +78,7 @@ namespace Teamproject1
             // 
             this.graphformcopy2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.graphformcopy2.Location = new System.Drawing.Point(15, 475);
-            this.graphformcopy2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.graphformcopy2.Margin = new System.Windows.Forms.Padding(4);
             this.graphformcopy2.Name = "graphformcopy2";
             this.graphformcopy2.Size = new System.Drawing.Size(521, 43);
             this.graphformcopy2.TabIndex = 3;
@@ -89,7 +90,7 @@ namespace Teamproject1
             this.weatherinfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.weatherinfo.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.weatherinfo.Location = new System.Drawing.Point(15, 526);
-            this.weatherinfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.weatherinfo.Margin = new System.Windows.Forms.Padding(4);
             this.weatherinfo.Name = "weatherinfo";
             this.weatherinfo.Size = new System.Drawing.Size(632, 44);
             this.weatherinfo.TabIndex = 4;
@@ -100,7 +101,7 @@ namespace Teamproject1
             // 
             this.malefashion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.malefashion.Location = new System.Drawing.Point(34, 665);
-            this.malefashion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.malefashion.Margin = new System.Windows.Forms.Padding(4);
             this.malefashion.Name = "malefashion";
             this.malefashion.Size = new System.Drawing.Size(119, 107);
             this.malefashion.TabIndex = 5;
@@ -111,7 +112,7 @@ namespace Teamproject1
             // 
             this.femalefashion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.femalefashion.Location = new System.Drawing.Point(192, 665);
-            this.femalefashion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.femalefashion.Margin = new System.Windows.Forms.Padding(4);
             this.femalefashion.Name = "femalefashion";
             this.femalefashion.Size = new System.Drawing.Size(116, 107);
             this.femalefashion.TabIndex = 6;
@@ -122,7 +123,7 @@ namespace Teamproject1
             // 
             this.agespecific.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.agespecific.Location = new System.Drawing.Point(349, 665);
-            this.agespecific.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.agespecific.Margin = new System.Windows.Forms.Padding(4);
             this.agespecific.Name = "agespecific";
             this.agespecific.Size = new System.Drawing.Size(122, 107);
             this.agespecific.TabIndex = 7;
@@ -133,7 +134,7 @@ namespace Teamproject1
             // 
             this.seasonspecific.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.seasonspecific.Location = new System.Drawing.Point(508, 665);
-            this.seasonspecific.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.seasonspecific.Margin = new System.Windows.Forms.Padding(4);
             this.seasonspecific.Name = "seasonspecific";
             this.seasonspecific.Size = new System.Drawing.Size(122, 107);
             this.seasonspecific.TabIndex = 8;
@@ -144,7 +145,7 @@ namespace Teamproject1
             // 
             this.design1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.design1.Location = new System.Drawing.Point(15, 839);
-            this.design1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.design1.Margin = new System.Windows.Forms.Padding(4);
             this.design1.Name = "design1";
             this.design1.Size = new System.Drawing.Size(294, 53);
             this.design1.TabIndex = 9;
@@ -155,7 +156,7 @@ namespace Teamproject1
             // 
             this.design2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.design2.Location = new System.Drawing.Point(536, 864);
-            this.design2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.design2.Margin = new System.Windows.Forms.Padding(4);
             this.design2.Name = "design2";
             this.design2.Size = new System.Drawing.Size(94, 28);
             this.design2.TabIndex = 10;
@@ -166,7 +167,7 @@ namespace Teamproject1
             // 
             this.journeylook.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.journeylook.Location = new System.Drawing.Point(34, 962);
-            this.journeylook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.journeylook.Margin = new System.Windows.Forms.Padding(4);
             this.journeylook.Name = "journeylook";
             this.journeylook.Size = new System.Drawing.Size(150, 176);
             this.journeylook.TabIndex = 11;
@@ -177,7 +178,7 @@ namespace Teamproject1
             // 
             this.datelook.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.datelook.Location = new System.Drawing.Point(244, 962);
-            this.datelook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.datelook.Margin = new System.Windows.Forms.Padding(4);
             this.datelook.Name = "datelook";
             this.datelook.Size = new System.Drawing.Size(156, 180);
             this.datelook.TabIndex = 12;
@@ -188,7 +189,7 @@ namespace Teamproject1
             // 
             this.weddinglook.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.weddinglook.Location = new System.Drawing.Point(459, 962);
-            this.weddinglook.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.weddinglook.Margin = new System.Windows.Forms.Padding(4);
             this.weddinglook.Name = "weddinglook";
             this.weddinglook.Size = new System.Drawing.Size(159, 180);
             this.weddinglook.TabIndex = 13;
@@ -199,7 +200,7 @@ namespace Teamproject1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button1.Location = new System.Drawing.Point(275, 594);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(112, 43);
             this.button1.TabIndex = 14;
@@ -215,12 +216,19 @@ namespace Teamproject1
             this.chart1.Location = new System.Drawing.Point(25, 95);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.IsValueShownAsLabel = true;
+            series1.IsVisibleInLegend = false;
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
             this.chart1.Size = new System.Drawing.Size(621, 273);
             this.chart1.TabIndex = 15;
             this.chart1.Text = "chart1";
+            title1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            title1.Name = "Title1";
+            title1.Text = "기온그래프";
+            this.chart1.Titles.Add(title1);
             // 
             // graghform2
             // 
@@ -244,7 +252,7 @@ namespace Teamproject1
             this.Controls.Add(this.graphformcopy1);
             this.Controls.Add(this.graphformbutton);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "graghform2";
             this.Text = "graghform";
             this.Load += new System.EventHandler(this.graghform_Load);
